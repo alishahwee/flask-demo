@@ -6,6 +6,10 @@
 		<title>Hello!</title>
 	</head>
 	<body>
-		Your random number is {{ number }}.
+		{% if number == 1 %}
+			Your coin flip is HEADS.
+		{% else %}
+			Your coin flip is TAILS.
+		{% endif %}
 	</body>
 </html>
