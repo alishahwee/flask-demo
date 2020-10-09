@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def tasks():
-    return "TASKS"
+    return render_template("tasks.html")
 
 @app.route("/add")
 def add():
-    return "ADD A NEW TASK"
+    return render_template("add.html")
     
