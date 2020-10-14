@@ -1,7 +1,12 @@
+autopep8==1.5.4
+cachelib==0.1.1
 click==7.1.2
 Flask==1.1.2
+Flask-Session==0.3.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 pkg-resources==0.0.0
+pycodestyle==2.6.0
+toml==0.10.1
 Werkzeug==1.0.1
